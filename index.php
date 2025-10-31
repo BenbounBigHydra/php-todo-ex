@@ -7,7 +7,8 @@
 define('BASE_URL', getenv('TODOLIST_BASE_URL') ?: '/');
 
 // Database connection parameters.
-define('DB_USER', 'todolist');
+// define('DB_USER', 'todolist');
+define('DB_USER', getenv('TODOLIST_DB_USER'));
 // define('DB_PASS', 'Azami, Lady of Scrolls');
 define('DB_PASS', getenv('TODOLIST_DB_PASS'));
 define('DB_NAME', 'todolist');
