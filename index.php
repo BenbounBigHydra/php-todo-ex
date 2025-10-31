@@ -124,6 +124,8 @@ $items = $db->query($selectQuery);
         <button type='submit' class='btn btn-primary ml-2'>Add</button>
       </form>
 
+      <h1>Hello World !</h1>
+
       <!-- Todo list -->
       <div class='list-group mt-3'>
 
